@@ -1,0 +1,44 @@
+{
+  "name": "js-big-list",
+  "version": "0.1.0",
+  "description": "Help manage large lists of data for frontend filtering.",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": ". ./scripts/build.sh",
+    "test": ". ./scripts/test.sh",
+    "publish-coverage": ". ./scripts/publish_coverage.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taystack/js-big-list.git"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "javascript",
+    "filter",
+    "filtering",
+    "big-list",
+    "js-big-list",
+    "list-filtering",
+    "list-filter",
+    "list"
+  ],
+  "author": "taystack (Taylor Stackpole)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-loader": "^8.0.5",
+    "codecov": "^3.1.0",
+    "jest": "^24.0.0"
+  },
+  "dependencies": {
+    "@taystack/js-helpers": "^0.8.1"
+  }
+}
