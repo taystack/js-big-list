@@ -3,9 +3,14 @@
 [![codecov](https://codecov.io/gh/taystack/js-big-list/branch/master/graph/badge.svg)](https://codecov.io/gh/taystack/js-big-list)
 <!-- [![Build Status](https://travis-ci.org/taystack/js-big-list.svg?branch=master)](https://travis-ci.org/taystack/js-big-list) -->
 
+ - [Installation](#installation)
+ - [Documentation](#documentation)
+ - [Use](#use)
+ - [Example](#example)
+
 # Documentation _coming soon_
 
-# Installation _coming soon_
+# Installation
 
 ```javascript
 yarn add @taystack/js-big-list
