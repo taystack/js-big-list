@@ -1,0 +1,9 @@
+.babelrc
+yarn-error.log
+
+/.git
+/src
+/test
+/scripts
+/node_modules
+/coverage

@@ -1,1 +1,0 @@
-var BigList = require("../lib");

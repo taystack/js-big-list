@@ -1,6 +1,6 @@
 {
-  "name": "js-big-list",
-  "version": "0.1.0",
+  "name": "@taystack/js-big-list",
+  "version": "0.1.1",
   "description": "Help manage large lists of data for frontend filtering.",
   "main": "lib/index.js",
   "directories": {
@@ -9,7 +9,8 @@
   "scripts": {
     "build": ". ./scripts/build.sh",
     "test": ". ./scripts/test.sh",
-    "publish-coverage": ". ./scripts/publish_coverage.sh"
+    "publish-coverage": ". ./scripts/publish_coverage.sh",
+    "benchmark": "node ./scripts/benchmark.js"
   },
   "repository": {
     "type": "git",
