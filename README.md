@@ -37,3 +37,17 @@ const items = new Array(100000).fill().map((_, i) => i); // 100,000 things
 const renderedItems = BigList(5, items, x => x % 10 === 0);
 // => [0, 10, 20, 30, 40];
 ```
+
+# Benchmarks
+
+```bash
+*** BigList benchmark against Array.filter.slice ***
+
+*** filterPredicate = x => x % 10 === 0 ***
+Items                BigList              Array.filter.slice
+-----                -------              ------------------
+10,000               0ms                  0ms
+100,000              0ms                  2ms
+1,000,000            0ms                  15ms
+10,000,000           0ms                  149ms
+```
