@@ -12,13 +12,13 @@
 
 # Installation
 
-```javascript
+```bash
 yarn add @taystack/js-big-list
 ```
 
 or with `npm`
 
-```javascript
+```bash
 npm i @taystack/js-big-list
 ```
 
