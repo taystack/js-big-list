@@ -1,6 +1,6 @@
 {
   "name": "@taystack/js-big-list",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Help manage large lists of data for frontend filtering.",
   "main": "lib/index.js",
   "directories": {
