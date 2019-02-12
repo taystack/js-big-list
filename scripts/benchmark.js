@@ -22,7 +22,5 @@ while (count < 10000000) {
 
   var done = new Date().getTime();
 
-  // console.log(count.toLocaleString() + "\t" + bigListDone - start + "ms\t" + done - bigListDone + "ms");
-  // console.log(`${count}${bigListDone - start}ms\t\t${done - bigListDone}ms`);
   console.log(`${count.toLocaleString()}`.padEnd(20), `${bigListDone - start}ms`.padEnd(20), `${done - bigListDone}ms`);
 }
